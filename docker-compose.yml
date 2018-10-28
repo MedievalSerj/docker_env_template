@@ -36,6 +36,11 @@ services:
       GUNICORN_RELOAD: 1
       GUNICORN_BIND: 0.0.0.0:8080
       SKIP_PIP: ${skip_pip}
+      DB_USER: db_user
+      DB_PASSWORD: password
+      DB_HOST: postgres
+      DB_PORT: 5432
+      DB_DATABASE: template_db
 
 
 volumes:
