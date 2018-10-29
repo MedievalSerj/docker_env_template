@@ -4,7 +4,7 @@ a common docker environment to use along with the template projects
 
 ## Prerequisites
 
-This repo is suppose to be in a sibling directory to template projects ([flask_template](https://github.com/api-template/flask_template) for instance)
+This repo is suppose to be in a sibling directory to template projects ([flask_template](https://github.com/flask_template) for instance)
 
 api_template  
 ├── docker_env  
